@@ -5,7 +5,7 @@ def reverse_word(word):
     
     return new_word
 
-def reverse_sentence(sentence):
+def Reverse(sentence):
     words_list=[]
     ans=""
     word=""
@@ -22,5 +22,5 @@ def reverse_sentence(sentence):
         
 
 sentence=input("Enter the sentence: ")
-ans=reverse_sentence(sentence)
+ans=Reverse(sentence)
 print(ans)
