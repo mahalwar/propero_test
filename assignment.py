@@ -6,7 +6,6 @@ def reverse_word(word):
     return new_word
 
 def Reverse(sentence):
-    words_list=[]
     ans=""
     word=""
     for i in sentence:
