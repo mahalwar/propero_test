@@ -5,7 +5,7 @@ def reverse_word(word):
     
     return new_word
 
-def Reverse(sentence):
+def reverse_letters(sentence):
     ans=""
     word=""
     for i in sentence:
@@ -21,5 +21,5 @@ def Reverse(sentence):
         
 
 sentence=input("Enter the sentence: ")
-ans=Reverse(sentence)
+ans=reverse_letters(sentence)
 print(ans)
